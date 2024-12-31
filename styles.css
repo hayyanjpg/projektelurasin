@@ -1,0 +1,55 @@
+/* Aturan untuk gambar produk */
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #eab308;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Aturan untuk gambar telur_asin */
+.telur-asin {
+    width: 350%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #eab308;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Aturan untuk kartu produk */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card:active {
+    transform: scale(0.95);
+}
+
+/* Aturan untuk animasi smooth scroll */
+.smooth-scroll {
+    scroll-behavior: smooth;
+}
+
+/* Aturan untuk animasi tombol */
+.button-animation {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button-animation:active {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Efek visual saat tombol diklik */
+.button-animation.clicked {
+    transform: scale(0.95);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
